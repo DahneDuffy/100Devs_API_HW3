@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>NYT Bestseller</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<h1>Current NYT Best Seller List</h1>
+		<div class="dropdown">
+			<label for="genreList">Choose a genre:</label>
+			<select name="genreList" id="genreList">
+				<option value="combined-print-and-e-book-fiction">Combined Print & E-Book Fiction</option>
+				<option value="hardcover-fiction">Hardcover Fiction</option>
+				<option value="trade-fiction-paperback">Paperback Trade Fiction</option>
+				<option value="combined-print-and-e-book-nonfiction">Combined Print & E-Book Non-Fiction</option>
+				<option value="hardcover-nonfiction">Hardcover Non-Fiction</option>
+				<option value="paperback-nonfiction">Paperback Non-Fiction</option>
+				<option value="advice-how-to-and-miscellaneous">Advice, How-to & Miscellaneous</option>
+				<option value="childrens-middle-grade-hardcover">Children's Middle Grade Hardcover</option>
+				<option value="picture-books">Children's Picture Books</option>
+				<option value="series-books">Children's Series</option>
+				<option value="young-adult-hardcover">Young Adult Hardcover</option>
+				<option value="audio-fiction">Audio Fiction</option>
+				<option value="audio-nonfiction">Audio Non-Fiction</option>
+				<option value="business-books">Business</option>
+				<option value="graphic-books-and-manga">Graphic Books & Manga</option>
+				<option value="mass-market-monthly">Mass Market</option>
+				<option value="middle-grade-paperback-monthly">Middle Grade Paperback</option>
+				<option value="young-adult-paperback-monthly">Young Adult Paperback</option>
+			</select>
+		</div>
+		<input type="date">
+		<button type="button" name="button">Submit</button>
+		<div class="bookListTarget">
+			<ul></ul>
+		</div>
+
+		<script type="module" src="js/main.js"></script>
+	</body>
+</html>
